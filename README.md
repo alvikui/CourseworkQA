@@ -28,8 +28,10 @@
 
 ## Начало работы
 
-**Выполнить команды в терминале:**
-* `git clone https://github.com/alvikui/CourseworkQA`
+1. Клонировать репозиторий командой `git clone`
+2. Открыть проект в IDE: IntelliJ IDEA
+3. Выполнить команды в терминале:
+* `git clone git@github.com:alvikui/CourseworkQA.git`
 * `cd CourseworkQA`
 
 ### Prerequisites
@@ -49,23 +51,11 @@
 
 2. Запустить приложение
 
-для запуска сервиса с БД postresql
-
-* `java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar ./artifacts/aqa-shop.jar`
-
-для запуска сервиса с БД mysql
-
-* `java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar ./artifacts/aqa-shop.jar`
+ `java -jar ./artifacts/aqa-shop.jar`
 
 3. Запустить автотесты
 
-для запуска тестов с БД postresql:
-
-* `./gradlew clean test -DdbUrl=jdbc:postgresql://localhost:5432/app`
-
-для запуска тестов с БД mysql:
-
-* `./gradlew clean test -DdbUrl=jdbc:mysql://localhost:3306/app`
+* `./gradlew clean test`
 
 4. Сформировать и открыть отчёт
 
