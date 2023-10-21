@@ -51,7 +51,7 @@
 
 2. Запустить приложение
 
- `java -jar ./artifacts/aqa-shop.jar`
+* `java -jar ./artifacts/aqa-shop.jar`
 
 3. Запустить автотесты
 
