@@ -15,7 +15,7 @@
 * 25 (83,33%) успешных
 * 5 (16,67%) не успешных
 
-![ALLURE REPORT](png/ALLURE REPORT.png)
+![ALLURE REPORT.png](png%2FALLURE%20REPORT.png)
 
 [В результате прогона тестов было составлено 5 баг-репортов и 2 предложения по улучшению](https://github.com/alvikui/CourseworkQA/issues)
 
